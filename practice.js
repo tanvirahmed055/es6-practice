@@ -18,3 +18,13 @@ make sure you return the result
 10. [optional] just a write a function with three parameters. and the last parameter will have a default parameter with value 7.
 this function will take three parameters and will return the sum of all the three parameters.
 */
+
+
+//1. let const
+//১. কখন const আর কখন let দিয়ে ভেরিয়েবল ডিক্লেয়ার করতে হয় সেটা তোমাকে জানতেই হবে। তুমি নিজে নিজে একটা const দিয়ে আরেকটা let দিয়ে ভেরিয়েবল ডিক্লেয়ার করে ফেলো।
+
+const name = "antor";
+let oilPrice = 500;
+oilPrice = 900;
+
+
