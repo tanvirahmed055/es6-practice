@@ -1,7 +1,6 @@
 /*
-3. arrow function
-3.a. with one parameter. will return the number after dividing by 5
-3.b. with two parameters. will add two to each number and then multiply the result.
+
+
 3.c. three parameters. will multiply all three parameters
 3.d. with two parameters but it will be a multi line arrow function. will add two to each number and then multiply the result.
 make sure you return the result
@@ -49,3 +48,12 @@ console.log(description);
 const divideByFive = num => num / 5;
 const result = divideByFive(25);
 console.log(result);
+
+
+
+//3.b. with two parameters. will add two to each number and then multiply the result.
+//৩.২ তুমি দুইটা প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন লিখবে। সেই ফাংশনের ভিতরে কাজ হবে। প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ২ যোগ করবে তারপর যোগফল দুইটা গুণ করবে। ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো 
+
+const myArrowFunction2 = (num1, num2) => (num1 + 2) * (num2 + 2);
+const result2 = myArrowFunction2(5, 10);
+console.log(result2);
