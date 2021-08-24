@@ -23,8 +23,19 @@ this function will take three parameters and will return the sum of all the thre
 //1. let const
 //১. কখন const আর কখন let দিয়ে ভেরিয়েবল ডিক্লেয়ার করতে হয় সেটা তোমাকে জানতেই হবে। তুমি নিজে নিজে একটা const দিয়ে আরেকটা let দিয়ে ভেরিয়েবল ডিক্লেয়ার করে ফেলো।
 
-const name = "antor";
+const firstName = "antor";
 let oilPrice = 500;
 oilPrice = 900;
 
+
+//2. template string
+//২. টেম্পলেট স্ট্রিং দিয়ে একটা স্ট্রিং তৈরি করো। সেটার মধ্যে উপরে ডিক্লেয়ার করা ভেরিয়েবল এর মান ডাইনামিক ভাবে বসাও। একইভাবে উপরে একটা অবজেক্ট ডিক্লেয়ার করো। এবং ডাইনামিকভাবে উপরের অবজেক্ট এর দুইটা প্রপার্টি এর মান তোমার টেমপ্লেট স্ট্রিং এর মধ্যে বসাও। 
+
+const xiomiPhone = {
+    model: "Redmi Note 10",
+    price: 20000
+};
+
+const description = `Hi! My first name is ${firstName}. I have oil in my shopping list and it costs me ${oilPrice} per litre. My friend has bought a ${xiomiPhone.model} phone which costs around ${xiomiPhone.price} taka.`;
+console.log(description);
 
