@@ -2,8 +2,7 @@
 
 
 
-3.d. with two parameters but it will be a multi line arrow function. will add two to each number and then multiply the result.
-make sure you return the result
+
 4. [home work]: javascript function declaration vs arrow function
 5. array of numbers. and then map to get each elements multiplied by 5. must use arrow function
 6. [challenging] numbers of array. get odd numbers by using filter with arrow function
@@ -67,3 +66,19 @@ console.log(result2);
 const myArrowFunction3 = (num1, num2, num3) => num1 * num2 * num3;
 const result3 = myArrowFunction3(5, 5, 5);
 console.log(result3);
+
+
+
+
+//3.d. with two parameters but it will be a multi line arrow function. will add two to each number and then multiply the result. make sure you return the result
+//৩.৪ এইবার দুইটা প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন নিবে। ওই arrow ফাংশনটা হবে অনেকগুলা লাইনের। সেখানে প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ২ যোগ করবে তারপর যোগফল দুইটা গুণ করবে। ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো। 
+
+const myArrowFunction4 = (num1, num2) => {
+    const firstSum = num1 + 2;
+    const secondSum = num2 + 2;
+    const multiplication = firstSum * secondSum;
+    return multiplication;
+}
+
+const result4 = myArrowFunction4(5, 10);
+console.log(result4);
