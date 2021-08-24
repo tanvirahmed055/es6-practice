@@ -1,7 +1,7 @@
 /*
 
 
-3.c. three parameters. will multiply all three parameters
+
 3.d. with two parameters but it will be a multi line arrow function. will add two to each number and then multiply the result.
 make sure you return the result
 4. [home work]: javascript function declaration vs arrow function
@@ -57,3 +57,13 @@ console.log(result);
 const myArrowFunction2 = (num1, num2) => (num1 + 2) * (num2 + 2);
 const result2 = myArrowFunction2(5, 10);
 console.log(result2);
+
+
+
+
+//3.c. three parameters. will multiply all three parameters
+//৩.৩ এইবার তিনটা প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন ডিক্লেয়ার করো। যেই ফাংশনের কাজ হবে তিনটা প্যারামিটার নিয়ে সেই তিনটা প্যারামিটারকে গুণ করে সেই রেজাল্ট রিটার্ন করবে। 
+
+const myArrowFunction3 = (num1, num2, num3) => num1 * num2 * num3;
+const result3 = myArrowFunction3(5, 5, 5);
+console.log(result3);
