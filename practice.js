@@ -3,7 +3,7 @@
 
 
 
-4. [home work]: javascript function declaration vs arrow function
+
 5. array of numbers. and then map to get each elements multiplied by 5. must use arrow function
 6. [challenging] numbers of array. get odd numbers by using filter with arrow function
 7. [challenging] array of objects (e.g. products). use find to get the object with price 5000.
@@ -82,3 +82,14 @@ const myArrowFunction4 = (num1, num2) => {
 
 const result4 = myArrowFunction4(5, 10);
 console.log(result4);
+
+
+
+
+//৪. [হোম ওয়ার্ক] একটু গুগলে সার্চ দাও: javascript function declaration vs arrow function তারপর কয়েকটা আর্টিকেল পড়ে বুঝার চেষ্টা করো। 
+//4. [home work]: javascript function declaration vs arrow function
+
+// 5 Differences Between Arrow and Regular Functions
+//https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/
+
+
