@@ -1,9 +1,5 @@
 /*
 
-
-
-
-
 5. array of numbers. and then map to get each elements multiplied by 5. must use arrow function
 6. [challenging] numbers of array. get odd numbers by using filter with arrow function
 7. [challenging] array of objects (e.g. products). use find to get the object with price 5000.
@@ -91,5 +87,14 @@ console.log(result4);
 
 // 5 Differences Between Arrow and Regular Functions
 //https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/
+
+
+
+
+
+//৪.৫. [এক্সট্রা আরেকটা হোম ওয়ার্ক। এইটা ভিডিওতে বলা নাই]: জাভাস্ক্রিপ্ট এর var, let, const এর মধ্যে প্রার্থক্য কি? 
+
+//Var, Let, and Const – What's the Difference?
+//https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
 
 
