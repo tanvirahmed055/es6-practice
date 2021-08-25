@@ -1,9 +1,5 @@
 /*
 
-
-
-
-8. You have an object. Now use destructing to create a simple variable of any property of the object.
 9. [challenging] You have an array. Now use destructing to create a simple (or more) variable to get the third element of the array in a variable called 'three'.
 10. [optional] just a write a function with three parameters. and the last parameter will have a default parameter with value 7.
 this function will take three parameters and will return the sum of all the three parameters.
@@ -137,5 +133,18 @@ const products = [
 const priceEqualFiveThousand = products.find(product => product.price == 5000);
 
 console.log(priceEqualFiveThousand);
+
+
+
+
+
+//8. You have an object. Now use destructing to create a simple variable of any property of the object.
+//৭.৫ [এক্সট্রা] জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো। 
+
+//Difference between map and forEach is that map will loop through each element of an array and for each element of the array, it will call a function or do something with each element and after that for each element result will get pushed into an array. But if you want to do something with each element but do not wish to return like you do with map then you can use forEach instead of map.
+
+//Difference between filter and find is that filter will say like I have some checkpoint. I will take someone only according to these checkpoint. I will not take anyone else beside it. The checkpoint condition is like the one you see inside if statements. But find will directly give you the whole element without giving it inside of an array like filter. If filter doesn't find anything that matches the checkpoint or condition then it will return an empty array whereas in case of find, it will return undefined. Filter will give you all the elements that get's matched with the checkpoint or condition whereas find will only return the first one that fulfilled the checkpoint or condition even if it finds many that fulfilled the checkpoint or condition.
+
+//The difference between map and filter is that if the condition or checkpoint is fulfilled then it will return the whole element. and that element will be returned inside of an array. 
 
 
