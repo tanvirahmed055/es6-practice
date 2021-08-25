@@ -1,6 +1,6 @@
 /*
 
-5. array of numbers. and then map to get each elements multiplied by 5. must use arrow function
+
 6. [challenging] numbers of array. get odd numbers by using filter with arrow function
 7. [challenging] array of objects (e.g. products). use find to get the object with price 5000.
 8. You have an object. Now use destructing to create a simple variable of any property of the object.
@@ -96,5 +96,16 @@ console.log(result4);
 
 //Var, Let, and Const – What's the Difference?
 //https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+
+
+
+
+
+//5. array of numbers. and then map to get each elements multiplied by 5. must use arrow function
+//৫. অনেকগুলা সংখ্যার একটা array হবে। তারপর তোমার কাজ হবে array এর উপরে map ইউজ করে। প্রত্যেকটা উপাদানকে ৫ দিয়ে গুন্ করে গুনফল আরেকটা array হিসেবে রাখবে। পুরা কাজটা এক লাইনে হবে। 
+
+const arrayOfNums = [5, 3, 17, 8, 4, 9, 2]
+const multipliedByFive = arrayOfNums.map(num => num * 5);
+console.log(multipliedByFive);
 
 
