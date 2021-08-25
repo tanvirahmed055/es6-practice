@@ -1,9 +1,3 @@
-/*
-
-
-10. [optional] just a write a function with three parameters. and the last parameter will have a default parameter with value 7.
-this function will take three parameters and will return the sum of all the three parameters.
-*/
 
 
 //1. let const
@@ -165,3 +159,26 @@ const pcBuild = {
 
 const { cost } = pcBuild;
 console.log(cost);
+
+
+
+
+
+// ৯. [চ্যালেঞ্জিং] array এর destructuring করবে আর সেটা করার জন্য তুমি এরে এর থার্ড পজিশন এর উপাদান কে destructuring করে 'three' নামক একটা ভেরিয়েবল এ রাখবে। 
+//9. [challenging] You have an array. Now use destructing to create a simple (or more) variable to get the third element of the array in a variable called 'three'.
+
+
+const [, , three] = [23, 34, 64, 67, 86, 74, 25, 39];
+console.log(three); // 64
+
+//A brief introduction to array destructuring in ES6
+//https://www.freecodecamp.org/news/array-destructuring-in-es6-30e398f21d10/
+
+// Ignoring Some Values
+// Destructuring lets you map a variable to the elements you are interested in. You can ignore or skip the other elements in the array by using trailing commas.
+
+// var a, b;
+// [a, , b] = ["Lordy", "Crown", "Roses"];
+
+// console.log(a); //Output: Lordy
+// console.log(b); //Output: Roses
