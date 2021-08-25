@@ -2,7 +2,7 @@
 
 
 
-7. [challenging] array of objects (e.g. products). use find to get the object with price 5000.
+
 8. You have an object. Now use destructing to create a simple variable of any property of the object.
 9. [challenging] You have an array. Now use destructing to create a simple (or more) variable to get the third element of the array in a variable called 'three'.
 10. [optional] just a write a function with three parameters. and the last parameter will have a default parameter with value 7.
@@ -117,3 +117,25 @@ console.log(multipliedByFive);
 const arrayOfNums2 = [5, 8, 6, 3, 9, 7, 1, 2, 4];
 const oddNumbers = arrayOfNums2.filter(num => num % 2 != 0);
 console.log(oddNumbers);
+
+
+
+
+
+//7. [challenging] array of objects (e.g. products). use find to get the object with price 5000.
+//৭. একটা array এর মধ্যে অনেকগুলা অবজেক্ট আছে। সেখানে যেই অবজেক্ট এর price আছে ৫০০০ টেক্কা সেই অবজেক্টকে find দিয়ে বের করো। 
+
+
+const products = [
+    { name: 'monitor', price: 10000 },
+    { name: 'mobile', price: 20000 },
+    { name: 'watch', price: 500 },
+    { name: 'fan', price: 5000 },
+    { name: 'lamp', price: 2000 }
+];
+
+const priceEqualFiveThousand = products.find(product => product.price == 5000);
+
+console.log(priceEqualFiveThousand);
+
+
