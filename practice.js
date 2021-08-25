@@ -257,8 +257,8 @@ const person = {
 
 //১২. উপরের অবজেক্ট এ ডট এর আগে যে প্রশ্নবোধক চিহ্ন দিয়ে যে অপশনাল চেইনিং করা যায়। সেটা একটু প্রাকটিস করো। 
 
-console.log(person?.info?.friends);
-console.log(person?.desktop?.processor?.Intel?.generation);
-console.log(person?.desktop?.processor?.Tosiba?.generation);
+console.log(person?.info?.friends); //[ 'Fuad', 'Rasel', 'Ishan', 'Sakib' ]
+console.log(person?.desktop?.processor?.Intel?.generation); //11th
+console.log(person?.desktop?.processor?.Tosiba?.generation);  // undefined
 
 
