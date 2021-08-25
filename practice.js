@@ -1,6 +1,6 @@
 /*
 
-9. [challenging] You have an array. Now use destructing to create a simple (or more) variable to get the third element of the array in a variable called 'three'.
+
 10. [optional] just a write a function with three parameters. and the last parameter will have a default parameter with value 7.
 this function will take three parameters and will return the sum of all the three parameters.
 */
@@ -138,7 +138,7 @@ console.log(priceEqualFiveThousand);
 
 
 
-//8. You have an object. Now use destructing to create a simple variable of any property of the object.
+
 //৭.৫ [এক্সট্রা] জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো। 
 
 //Difference between map and forEach is that map will loop through each element of an array and for each element of the array, it will call a function or do something with each element and after that for each element result will get pushed into an array. But if you want to do something with each element but do not wish to return like you do with map then you can use forEach instead of map.
@@ -148,3 +148,20 @@ console.log(priceEqualFiveThousand);
 //The difference between map and filter is that if the condition or checkpoint is fulfilled then it will return the whole element. and that element will be returned inside of an array. 
 
 
+
+
+
+
+//8. You have an object. Now use destructing to create a simple variable of any property of the object.
+//৮. সিম্পল একটা জাভাস্ক্রিপ্ট অবজেক্ট এর কোন একটা প্রোপার্টিকে ভেরিয়েবল হিসেবে ডিক্লেয়ার করার জন্য destructuring ইউজ করো। 
+
+const pcBuild = {
+    monitor: 'Samsung',
+    processor: 'Intel',
+    ram: '8gb',
+    mouse: 'logitech',
+    cost: 30000
+};
+
+const { cost } = pcBuild;
+console.log(cost);
