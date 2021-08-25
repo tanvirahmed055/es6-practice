@@ -1,7 +1,7 @@
 /*
 
 
-6. [challenging] numbers of array. get odd numbers by using filter with arrow function
+
 7. [challenging] array of objects (e.g. products). use find to get the object with price 5000.
 8. You have an object. Now use destructing to create a simple variable of any property of the object.
 9. [challenging] You have an array. Now use destructing to create a simple (or more) variable to get the third element of the array in a variable called 'three'.
@@ -109,3 +109,11 @@ const multipliedByFive = arrayOfNums.map(num => num * 5);
 console.log(multipliedByFive);
 
 
+
+
+//6. [challenging] numbers of array. get odd numbers by using filter with arrow function
+//৬. [ চ্যালেঞ্জিং। গুগলে সার্চ দিয়ে বের করো ] অনেকগুলা সংখ্যার একটা array থেকে শুধু বিজোড় সংখ্যা বের করে নিয়ে আসার জন্য filter ইউজ করো 
+
+const arrayOfNums2 = [5, 8, 6, 3, 9, 7, 1, 2, 4];
+const oddNumbers = arrayOfNums2.filter(num => num % 2 != 0);
+console.log(oddNumbers);
