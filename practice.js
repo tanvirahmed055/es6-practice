@@ -182,3 +182,78 @@ console.log(three); // 64
 
 // console.log(a); //Output: Lordy
 // console.log(b); //Output: Roses
+
+
+
+
+
+
+
+
+
+//10. [optional] just a write a function with three parameters. and the last parameter will have a default parameter with value 7.
+//১০. তিনটা প্যারামিটার ওয়ালা একটা ফাংশন লিখবে। যেই ফাংশনের কাজ হবে তিনটা প্যারামিটার নিয়ে সেই তিনটা প্যারামিটার এর যোগ করে যোগফল রিটার্ন করবে। আর থার্ড প্যারামিটার এর একটা ডিফল্ট ভ্যালু থাকবে। সেটা হবে ৭। 
+
+
+const myArrowFunction5 = (num1, num2, num3 = 7) => num1 + num2 + num3;
+
+const result5 = myArrowFunction5(7, 6);
+console.log(result5);
+
+
+
+function defaultCalc(num1, num2, num3 = 7) {
+    const total = num1 + num2 + num3;
+    return total;
+}
+
+const result6 = myArrowFunction5(7, 6);
+console.log(result6);
+
+
+
+
+
+
+
+
+//[অপশনাল]
+//১১. একটা nested অবজেক্ট ডিক্লেয়ার করো (অর্থাৎ একটা অবজেক্ট এর প্রপার্টি এর মধ্যেও যে অবজেক্ট থাকতে পারে। আবার সেই অবজেক্ট এর প্রপার্টি এর মধ্যেও সে অবজেক্ট থাকতে পারে। সেই রকম একটা অবজেক্ট ডিক্লেয়ার করো। এবং যেকোন একটা প্রপার্টি এর মান একটা array হবে। জাস্ট এমন একটা অবজেক্ট )
+
+const person = {
+    id: 20,
+    products: {
+        mobile: 'OnePlus',
+        laptop: 'Asus',
+        tablet: 'Samsung'
+    },
+    desktop: {
+        processor: {
+            Intel: {
+                generation: '11th',
+                cores: 6,
+                threads: 6
+            },
+            Amd: {
+                generation: 'Athlon 3000G',
+                cores: 2,
+                threads: 4
+            }
+        },
+        motherboard: 'Gigabyte',
+        ram: '16gb'
+    },
+    info: {
+        address: 'Dhaka',
+        friends: ['Fuad', 'Rasel', 'Ishan', 'Sakib'],
+        car: 2
+    }
+
+};
+
+
+console.log(person);
+
+
+
+
